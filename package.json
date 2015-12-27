@@ -12,16 +12,26 @@
   "devDependencies": {
     "babel-preset-react": "^6.3.13",
     "babelify": "^7.2.0",
+    "browser-sync": "^2.10.1",
     "browserify": "^12.0.1",
     "browserify-incremental": "^3.0.1",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-frontnote": "^1.0.2",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.1.1",
+    "gulp-uglify": "^1.5.1",
+    "gulp-webserver": "^0.9.1",
     "http-server": "^0.8.5",
+    "material-ui": "^0.14.0",
     "react": "^0.14.3",
     "reactify": "^1.1.1",
     "uglify-js": "^2.6.1",
+    "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.6.1"
   },
   "scripts": {
-    "watch": "watchify -t babelify ./src/js/app.js -o ./dist/build.js"
+    "watch": "watchify -t babelify ./src/js/app.js -o ./dist/js/build.js"
   },
   "repository": {
     "type": "git",
